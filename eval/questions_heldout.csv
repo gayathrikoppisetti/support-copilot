@@ -1,0 +1,21 @@
+question,correct_chunk_id
+my teammate says the invite link is dead,troubleshooting.md::2|onboarding.md::4
+can I pay yearly to save money,faq.md::1|policies.md::2
+how much is the business tier,faq.md::1|policies.md::2
+what happens to my data after I delete the workspace,policies.md::3
+how do I get an API key,api_docs.md::1
+the API keeps returning 401,api_docs.md::1
+what does error 429 mean,api_docs.md::3
+can someone view tasks without being able to edit them,onboarding.md::4|release_notes.md::4
+can I get Taskly to post updates in Slack,onboarding.md::5
+I lost internet on the train will my changes be saved,faq.md::5
+tasks vanish from my phone after switching wifi,troubleshooting.md::3|release_notes.md::2
+do you refund monthly subscriptions,policies.md::1|faq.md::2
+does Taskly have a timeline view,release_notes.md::3|onboarding.md::2
+I am not receiving any alerts on my phone,troubleshooting.md::4
+will I be compensated if the service goes down,policies.md::4
+how do I move my tasks out of Taskly,faq.md::4
+can I bring in tasks from a spreadsheet,release_notes.md::1
+my account got suspended can I get my money back,policies.md::5
+I get a session expired message again and again,troubleshooting.md::1
+how many people can use the free plan,faq.md::1

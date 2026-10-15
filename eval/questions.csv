@@ -1,0 +1,21 @@
+question,correct_chunk_id
+how do I invite a teammate,faq.md::3
+what does the pro plan cost,faq.md::1
+can I get my money back,faq.md::2
+why am I not getting notifications,troubleshooting.md::4
+my invite link does not work anymore,troubleshooting.md::2
+I am getting error E-4012,troubleshooting.md::1
+the mobile app will not sync,troubleshooting.md::3
+how do I create my first project,onboarding.md::2
+how do I connect Slack,onboarding.md::5
+how do I authenticate with the API,api_docs.md::1
+what happens if I exceed the rate limit,api_docs.md::3
+how do I delete a task through the API,api_docs.md::2
+what changed in the latest release,release_notes.md::1
+when was dark mode added,release_notes.md::3
+how long until deleted data is gone for good,policies.md::3
+what is the uptime guarantee,policies.md::4
+can I export my tasks,faq.md::4
+does the app work without internet,faq.md::5
+how many days do I have to accept an invite,onboarding.md::4
+what is the refund window for annual plans,policies.md::1

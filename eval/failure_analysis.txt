@@ -1,0 +1,42 @@
+Q: can I pay yearly to save money
+  correct: faq.md::1|policies.md::2
+  vector  top-3: ['faq.md::2', 'policies.md::2', 'policies.md::1']  top-1 hit: False  top-3 hit: True
+  bm25    top-3: ['troubleshooting.md::1', 'troubleshooting.md::2', 'troubleshooting.md::3']  top-1 hit: False  top-3 hit: False
+  hybrid  top-3: ['policies.md::2', 'policies.md::1', 'policies.md::4']  top-1 hit: True  top-3 hit: True
+
+Q: how do I get an API key
+  correct: api_docs.md::1
+  vector  top-3: ['api_docs.md::1', 'api_docs.md::0', 'api_docs.md::4']  top-1 hit: True  top-3 hit: True
+  bm25    top-3: ['api_docs.md::2', 'faq.md::2', 'api_docs.md::0']  top-1 hit: False  top-3 hit: False
+  hybrid  top-3: ['api_docs.md::1', 'api_docs.md::0', 'api_docs.md::2']  top-1 hit: True  top-3 hit: True
+
+Q: what does error 429 mean
+  correct: api_docs.md::3
+  vector  top-3: ['troubleshooting.md::1', 'api_docs.md::3', 'policies.md::5']  top-1 hit: False  top-3 hit: True
+  bm25    top-3: ['api_docs.md::3', 'troubleshooting.md::1', 'api_docs.md::1']  top-1 hit: True  top-3 hit: True
+  hybrid  top-3: ['troubleshooting.md::1', 'api_docs.md::3', 'api_docs.md::1']  top-1 hit: False  top-3 hit: True
+
+Q: can someone view tasks without being able to edit them
+  correct: onboarding.md::4|release_notes.md::4
+  vector  top-3: ['faq.md::4', 'onboarding.md::2', 'api_docs.md::2']  top-1 hit: False  top-3 hit: False
+  bm25    top-3: ['onboarding.md::4', 'onboarding.md::2', 'policies.md::5']  top-1 hit: True  top-3 hit: True
+  hybrid  top-3: ['onboarding.md::2', 'onboarding.md::4', 'api_docs.md::2']  top-1 hit: False  top-3 hit: True
+
+Q: how do I move my tasks out of Taskly
+  correct: faq.md::4
+  vector  top-3: ['api_docs.md::2', 'onboarding.md::3', 'faq.md::4']  top-1 hit: False  top-3 hit: True
+  bm25    top-3: ['troubleshooting.md::3', 'troubleshooting.md::1', 'api_docs.md::2']  top-1 hit: False  top-3 hit: False
+  hybrid  top-3: ['api_docs.md::2', 'troubleshooting.md::3', 'onboarding.md::3']  top-1 hit: False  top-3 hit: False
+
+Q: can I bring in tasks from a spreadsheet
+  correct: release_notes.md::1
+  vector  top-3: ['faq.md::4', 'onboarding.md::3', 'onboarding.md::5']  top-1 hit: False  top-3 hit: False
+  bm25    top-3: ['api_docs.md::2', 'release_notes.md::2', 'faq.md::4']  top-1 hit: False  top-3 hit: False
+  hybrid  top-3: ['faq.md::4', 'api_docs.md::2', 'onboarding.md::3']  top-1 hit: False  top-3 hit: False
+
+Q: how many people can use the free plan
+  correct: faq.md::1
+  vector  top-3: ['policies.md::2', 'policies.md::4', 'faq.md::1']  top-1 hit: False  top-3 hit: True
+  bm25    top-3: ['policies.md::4', 'policies.md::5', 'onboarding.md::3']  top-1 hit: False  top-3 hit: False
+  hybrid  top-3: ['policies.md::4', 'policies.md::2', 'faq.md::1']  top-1 hit: False  top-3 hit: True
+
